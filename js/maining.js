@@ -1,5 +1,19 @@
 console.log("Welcome");
 
+let nav = document.getElementById("calling");
+let collapse= document.getElementById("callnav");
+let open = false;
+
+collapse.onclick = () => {
+    if (!open) {
+        nav.style.height = '70vh';
+        open = true
+    } else {
+        nav.style.height = '0px';
+        open = false
+    }
+}
+
 let p = document.getElementsByClassName('para');
 let btn = document.getElementsByClassName('less');
 
