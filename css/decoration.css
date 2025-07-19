@@ -1,0 +1,120 @@
+nav {
+    width: 83%;
+    margin-right: 8.5%;
+    margin-left: 8.5%;
+}
+.hovering {
+    transition: 0.3s;
+}
+.member:hover .hovering {
+    border-bottom: 2px solid #FF6D16;
+    color: #FF6D16 !important;
+}
+.login {
+    transition: 0.3s;
+    width: 30%;
+}
+.login:active,
+.more:hover {
+    color: #FF6D16 !important;
+    border-color: #FF6D16;
+    background: transparent!important;
+    box-shadow: inset 0px 0px 10px 1px darkorange;
+}
+.more {
+    background: #FF6D16!important;
+    width: 60%;
+    outline: none;
+    transition: 0.3s;
+}
+.clicked {
+    width: 45px;
+    color: #FF6D16;
+    border-color: #FF6D16;
+    transition: 0.3s;
+}
+.clicked:hover {
+    background: orange;
+    box-shadow: 0px 0px 10px 1px orange;
+    color: #fff!important;
+    border-color: #fff8;
+}
+.mainus {
+    color: #FF6D16;
+    text-shadow: 0px 0px 8px darkorange;
+    font-family: serif;
+}
+.highq {
+    font-size: 4rem;
+    text-shadow: 3px 3px 3px darkorange;
+}
+.box {
+    box-shadow: 0px 1px 5px 1px black;
+    transition: 0.5s;
+}
+.box:hover {
+    background-color: #FF6D16!important;
+    color: lightgray;
+    box-shadow: none;
+    font-weight: bold;
+}
+.logo {
+    width: 36px;
+    color: #FF6D16;
+}
+.line {
+    width: 20%;
+    height: 3px;
+    background: #FF6D16;
+}
+.box:hover .line {
+    background: lightgray;
+}
+footer {
+    background: #FF6D10;
+    color: #F0F0F0;
+}
+.lines {
+    width: 20%;
+    height: 5px;
+    background: #FF6D16;
+    color: #FF6D16;
+}
+video {
+    background: #01202F;
+    color: #FF6D16;
+}
+.less {
+    color: #FF5F00;
+    background: #F0F0F0;
+    width: 120px;
+    height: 35px;
+    transition: 0.3s;
+}
+.less:active {
+    background: #FF5F00;
+    color: #F0F0F0;
+    box-shadow: 0px 0px 10px 0.4px #000;
+}
+.caption {
+    height: 17rem;
+    width: 13.5rem;
+}
+.cell {
+    font-size: 0.9rem;
+    background: #1A168A;
+    transition: 0.2s;
+}
+.cell:active {
+    box-shadow: 0px 0px 10px 1px black;
+}
+.deal:hover {
+    box-shadow: 0px 0px 8px 1px #000;
+}
+@media (max-width: 462px) {
+    nav {
+        width: 98%;
+        margin-right: 1%;
+        margin-left: 1%;
+    }
+}
